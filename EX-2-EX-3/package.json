@@ -1,0 +1,30 @@
+{
+	"name": "ex-2-ex-3",
+	"version": "1.0.0",
+	"main": "server.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch ./src/server.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^5.1.0",
+		"jsonwebtoken": "^9.0.3",
+		"morgan": "^1.10.1",
+		"passport": "^0.7.0",
+		"passport-jwt": "^4.0.1",
+		"zod": "^4.4.3"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/jsonwebtoken": "^9.0.10",
+		"@types/morgan": "^1.9.10",
+		"@types/passport": "^1.0.17",
+		"@types/passport-jwt": "^4.0.1",
+		"tsx": "^4.22.3",
+		"typescript": "^6.0.3"
+	}
+}
