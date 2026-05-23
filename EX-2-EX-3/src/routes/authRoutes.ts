@@ -4,7 +4,7 @@ import z from "zod";
 
 import AppError from "../utils/AppError.ts";
 import { signToken } from "../utils/jwt.ts";
-import users from "../data/users.ts";
+import users from "../../data/users.ts";
 import { authenticate } from "../middlewares/authenticate.ts";
 import { validateBody } from "../middlewares/validate.ts";
 
